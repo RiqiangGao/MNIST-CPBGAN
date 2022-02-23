@@ -1,0 +1,24 @@
+#root file
+# now include train /val /test 20190117
+
+data_root: "/nfs/masi/gaor2/data/mnist/fashion"
+save_path: '/nfs/masi/gaor2/saved_file/MissClinic/MNIST2Fashion/cls/justtest'
+
+# training Params
+
+max_epoch: 150
+start_epoch: 0
+n_classes: 10
+learning_rate: 0.001
+batch_size: 64
+
+
+feat_dim: 128
+
+use_exist_model: False
+save_tensorlog: True
+iseval: True
+
+savemodel: True
+
+model_name: bl

@@ -1,0 +1,19 @@
+
+lr: 0.0002
+beta1: 0.5
+beta2: 0.999
+
+mnist_path: "/nfs/masi/gaor2/data/mnist/MNIST"
+fashion_path: "/nfs/masi/gaor2/data/mnist/fashion"
+
+img_size: 28
+batch_size: 100
+
+GPU: True
+
+pretrain: True
+mask_loader: True
+
+# block means with mask_loader
+
+save_root: /nfs/masi/gaor2/saved_file/MissClinic/MNIST2Fashion/block_pretrain_twofnet
